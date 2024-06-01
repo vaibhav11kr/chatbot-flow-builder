@@ -1,0 +1,64 @@
+.settings-panel {
+  width: 400px;
+  border-left: 1px solid #ddd;
+  background: #fff;
+}
+
+.back-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  /* width: 100%; */
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+span {
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+
+.back-button {
+  position: absolute;
+  left: 10px;
+
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 14px;
+  text-align: start;
+}
+
+.text-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.textarea {
+  font-size: 14px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  height: 80px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+.textarea:focus {
+  outline: none;
+}

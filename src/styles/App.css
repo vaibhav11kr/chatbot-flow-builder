@@ -1,0 +1,46 @@
+.app-main{
+  display: flex;
+  flex-direction: column;
+
+}
+.app-top{
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+}
+
+.error-message {
+  height: 20px;
+  background-color: #FFCBCB;
+  padding: 12px;
+  color: black;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+.app-container {
+  display: flex;
+  height: 92vh;
+}
+
+.react-flow-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+button {
+  border: 1.5px solid #505C9E;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  background: #fff;
+  margin-right: 120px;
+  color: #505C9E;
+  font-size: 14px;
+  font-weight: 700;
+}
+

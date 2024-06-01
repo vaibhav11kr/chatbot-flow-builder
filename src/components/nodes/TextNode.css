@@ -1,0 +1,45 @@
+.text-node {
+  border: 1px solid #ddd;
+  min-width: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #B2F0E3;
+  color: white;
+  padding: 2px;
+}
+
+.node-title {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 700;
+  margin-left: 2px;
+  font-size: 14px;
+  color: black;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-content {
+  padding: 10px;
+}
+
+.right-icon{
+  border-radius: 50%;
+  background: #fff;
+  margin: auto;
+}
